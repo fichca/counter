@@ -1,0 +1,27 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "Counter for the pet project \"book-store\". Node.js + express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -r dotenv/config index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fichca/counter.git"
+  },
+  "author": "pilip.liatkouski@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fichca/counter/issues"
+  },
+  "homepage": "https://github.com/fichca/counter#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  }
+}
